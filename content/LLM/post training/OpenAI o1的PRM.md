@@ -63,6 +63,7 @@ soft-label是说以往后rollout生成正确结果的频率作为正确概率。
 
 ### AI标注step
 我更倾向于基于一些准则，prompt最好的语言模型来对每个step进行标注。并使用prm800k作为测试prompt效果的ground truth. 这种方法在我看来才更容易扩展。似乎没看到有人这样标数据，是因为效果不好吗？还是相对于上面的采样方式来说时间复杂度太高？
+
 相关论文：[\[2309.00267\] RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267)
 [Specific versus General Principles for Constitutional AI \\ Anthropic](https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai)
 使用详细的标注指南比较好还是粗略的指令就足够好了？

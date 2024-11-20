@@ -71,3 +71,7 @@ f12查看html，发现换两次行分段是通过`<p></p>`表示，段落里的�
 [quartz build --serve does not update explorer with folder / new notes · Issue #1077 · jackyzha0/quartz · GitHub](https://github.com/jackyzha0/quartz/issues/1077)
 
 
+### bug
+
+部署了才知道，bug真不少....不仅评论功能没生效，原本的多行公式渲染也出bug了。早知道不更新了....
+如果要获得最好的观看体验，推荐直接把 https://github.com/xlinker1/share-blog/tree/v4/content 下的内容下载下来用obsidian打开....
